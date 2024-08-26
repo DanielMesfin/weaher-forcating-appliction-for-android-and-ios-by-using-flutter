@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+Follow the following steps to run and test the application
+#    Key Configurations:
+flutterRoot: This is set based on the path provided in local.properties.
+compileSdkVersion: Set to 34, ensuring compatibility with the latest Android SDK.
+ndkVersion: Pulled from Flutter’s configuration.
+kotlinOptions: Configured to use jvmTarget = '17' for Java 17 compatibility.
+sourceSets: Includes the Kotlin source directory.
+defaultConfig: Configures the Android app's minimum and target SDK versions, along with the version code and name.
